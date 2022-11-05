@@ -31,7 +31,7 @@ const Calculator = () => {
       </div>
       <div className="button-grid">
         <CalcBtn myFunc={handleClick} buttonName="AC" buttonClasses="btn clear" id="clear" />
-        <CalcBtn myFunc={handleClick} buttonName="+/-" buttonClasses="btn plusminus" id="plus-minus" />
+        <CalcBtn myFunc={handleClick} buttonName="+/-" buttonClasses="btn plusMinus" id="plus-minus" />
         <CalcBtn myFunc={handleClick} buttonName="%" buttonClasses="btn percent" id="percent" />
         <CalcBtn myFunc={handleClick} buttonName="÷" buttonClasses="btn divide red" id="divide" />
         <CalcBtn myFunc={handleClick} buttonName="7" buttonClasses="btn seven" id="seven" />
