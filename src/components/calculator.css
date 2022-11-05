@@ -37,6 +37,18 @@
   cursor: pointer;
 }
 
-.orange {
+.total {
+  justify-self: flex-end;
+}
+
+.hint {
+  font-size: 0.1rem;
+  align-self: flex-start;
+  padding: 1.4rem;
+  margin-right: auto;
+  color: #8581eb;
+}
+
+.red {
   background-color: #e8460bcb;
 }
