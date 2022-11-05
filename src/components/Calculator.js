@@ -24,7 +24,7 @@ class Calculator extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <div className="calculator-container">
-        <input type="number" className="display" id="display" value={0} />
+        <input type="text" className="display" id="display" />
         <div className="display" id="display">
           {total}
           {operation}
